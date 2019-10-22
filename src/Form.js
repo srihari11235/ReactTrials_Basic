@@ -23,6 +23,8 @@ class Form extends Component {
         this.setState({
           [name]: value,
         })
+
+        
       }
 
       submitForm = () => {
